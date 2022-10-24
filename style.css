@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #cfe2cf;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: cornsilk;
+    background-size: cover;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #000000;
+    margin: 20px;
+}
+
+h2{
+    font-family: 'Courier New';
+    color: #b31515;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    margin: 20px;
+    display: flex;
+    justify-content: center; 
+}
+h4{
+    margin: 20px;
+    display: flex;
+    justify-content: center;  
+}
+.info{
+    width: 20rem;
+    height: 20rem;
+    margin: 20px;
+    border-radius:20px;
+    background-color: #61615dbc;
+    box-shadow: 0 0 20px #5a5a54;
+    text-align: center;
+}
+
+.card{
+    width: 20rem;
+    height: 20rem;
+    border-radius:20px;
+    background-color: #d06666;
+    box-shadow: 0 0 20px #750202;
+}
+.card > img{
+    width: 100%;
+    height: 100%;
+    
+}
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    margin: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:#6b6b6baf;
+    border-color: #797979af;
+}
+img{
+    border-radius: 20px;
+    
+}
